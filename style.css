@@ -9,11 +9,12 @@ body {
   color: #333;
   line-height: 1.6;
 }
-
 html {
   scroll-behavior: smooth;
 }
-
+p {
+  text-align: justify;
+}
 /* Header 2 kolom */
 .header {
   display: flex;
@@ -23,7 +24,7 @@ html {
   color: white;
   padding: 25px 50px;
 }
-.header-right {
+.header-right p {
   text-align: right;
 }
 .header-left img {
@@ -177,6 +178,9 @@ html {
   padding: 15px;
   font-size: 14px;
   color: #829ab1;
+}
+.footer-bottom p {
+  text-align: center;
 }
 
 /* Style Khusus Halaman Blog */
