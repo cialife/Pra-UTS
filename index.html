@@ -3,11 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <title>Genshin Impact Article</title>
-    <!-- Menghubungkan CSS Eksternal -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Header: Dibuat sebagai 2 kolom -->
     <header class="header">
       <div class="header-left">
         <img src="images/logo.png" alt="Logo Web" id="home" />
@@ -18,23 +16,18 @@
       </div>
     </header>
 
-    <!-- Navigasi: Menu nav satu baris -->
     <nav class="navbar">
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#services">Services</a>
       <a href="blog.html">Blog</a>
-      <!-- Link untuk memanggil pop up CSS -->
       <a href="#profile">Contact</a>
     </nav>
 
-    <!-- Konten Utama: 2 kolom (kiri dan kanan) -->
     <main class="main-content">
-      <!-- Bagian Kiri: Dibuat menjadi 3 kolom -->
       <section class="left-column">
         <h2>Artikel Terbaru</h2>
         <div class="gallery-grid">
-          <!-- Baris 1 -->
           <article class="card">
             <img src="images/banner.png" alt="Galeri 1" class="gallery-img" />
             <h3>Banner Terbaru</h3>
@@ -58,7 +51,6 @@
             <h3>Redeem Code</h3>
             <p>Penukaran Kode Primogem Baru Genshin Impact.</p>
           </article>
-          <!-- Baris 2 -->
           <article class="card">
             <img src="images/vesna.png" alt="Galeri 4" class="gallery-img" />
             <h3>Panduan Build Karakter</h3>
@@ -92,7 +84,6 @@
         </div>
       </section>
 
-      <!-- Bagian Kanan: 3 bagian disusun ke bawah -->
       <aside class="right-column">
         <div class="widget">
           <h3>Informasi Web</h3>
@@ -115,7 +106,6 @@
         <div class="widget">
           <h3>Situs Eksternal</h3>
           <ul>
-            <!-- Memanggil website sesuai dengan URL nya -->
             <li>
               <a href="https://www.lipsum.com" target="_blank"
                 >Lorem Ipsum Official</a
@@ -132,9 +122,8 @@
       </aside>
     </main>
 
-    <!-- Footer: 2 bagian (atas dan bawah) -->
+    <!-- footer -->
     <footer class="footer">
-      <!-- Bagian atas: 3 kolom -->
       <div class="footer-top">
         <div class="footer-col">
           <section id="about">
@@ -162,7 +151,6 @@
           </p>
         </div>
       </div>
-      <!-- Bagian Bawah -->
       <div class="footer-bottom">
         <p>&copy; 2026 Web Artikel Genshin Impact. All rights reserved.</p>
       </div>
@@ -171,7 +159,7 @@
     <!-- pop-up profile -->
     <div id="profile" class="overlay">
       <div class="popup">
-        <!-- Tombol close -->
+        <!-- tombol close -->
         <a class="close" href="#home">&times;</a>
         <div class="popup-content">
           <div class="profil-header">
