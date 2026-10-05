@@ -26,7 +26,9 @@ html {
 .header-right {
   text-align: right;
 }
-
+.header-left img {
+  width: 150px;
+}
 /* navigasi bar */
 .navbar {
   display: flex;
